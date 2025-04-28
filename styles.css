@@ -8,52 +8,59 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #cbdceb, #00f2fe); /* Gradient background */
-    color: white; /* Adjust text color for better contrast */
-    padding: 20px; /* Add padding around the header */
-    text-align: center; /* Center align text */
-    border-radius: 8px; /* Optional: Round corners */
+    background: linear-gradient(to right, #cbdceb, #00f2fe);
+    color: rgb(21, 4, 4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
     font-size: medium;
 }
 
+h2 {
+    color: rgb(53, 52, 52);
+}
+
+p {
+    color: rgb(59, 57, 57);
+}
 nav ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 10px; /* Space between items */
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
   }
   
   nav li {
-    text-align: center; /* Center align text */
+    text-align: center; 
   }
   
   nav a {
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
     color: black; /* Link color */
-    font-weight: bold; /* Make links bold */
+    font-weight: bold; 
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr; /* Single column by default */
-    gap: 10px; /* Space between grid items */
-    text-align: center; /* Center align text */
-    padding: 20px; /* Add padding around the header */
-    background-color: #e0e0e0; /* Optional: Add a background color */
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    text-align: center; 
+    padding: 20px;
+    background-color: #e0e0e0; 
   }
   
   header div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns for name, GitHub, and date */
-    gap: 10px; /* Space between items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
   }
 
   main {
     grid-area: main;
     padding: 2rem;
-    background-color: #ffffff; /* Example background color */
+    background-color: #ffffff; 
 } 
 
 main {
@@ -71,50 +78,50 @@ section {
 }
 
 section {
-    background: linear-gradient(to right, #ebf7d3, #ebf7d3); /* Gradient background */
+    background: linear-gradient(to right, #ebf7d3, #ebf7d3); 
     border: 1px solid #ccc; /* Border around the section */
     padding: 15px;
     border-radius: 8px;
-    color: #fff; /* Adjust text color for better contrast */
+    color: #fff; 
 }
 
 nav li {
-    margin: 10px 0; /* Adds vertical spacing between links */
+    margin: 10px 0; 
 }
 
 nav a {
-    display: block; /* Ensures the links take up full width */
-    padding: 10px; /* Adds padding inside the links */
-    text-decoration: none; /* Removes underline */
-    color: white; /* Adjust text color for contrast */
-    background-color: #bbd5f2; /* Optional: Add background color */
-    border-radius: 5px; /* Optional: Round corners */
-    text-align: center; /* Centers the text */
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #bbd5f2; 
+    border-radius: 5px; 
+    text-align: center; 
 }
 
 nav a:hover {
-    background-color: #bbd5f2; /* Optional: Add hover effect */
+    background-color: #bbd5f2; 
 }
 
 nav a:hover {
     background: linear-gradient(to right, #ff7eb3, #ff758c); /* New gradient background */
-    color: #ffffff; /* Adjust text color for better contrast */
-    border-top: 2px solid #f9c7d0; /* Optional: Change top border color */
-    border-top: 2px solid #f9c7d0; /* Optional: Change top border color */
-    border-bottom: 2px solid #ff4d6d; /* Optional: Change bottom border color */
-    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+    color: #ffffff; 
+    border-top: 2px solid #f9c7d0; 
+    border-top: 2px solid #f9c7d0; 
+    border-bottom: 2px solid #ff4d6d; 
+    transition: background 0.3s ease, color 0.3s ease; 
 }
 
 table {
-    border-collapse: collapse; /* Ensures borders do not double up */
-    width: 100%; /* Makes the table span the full width of its container */
-    border: 2px solid #ccc; /* Adds a border around the table */
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 2px solid #ccc; 
 }
 
 th, td {
-    border: 1px solid #ccc; /* Adds borders to table cells */
-    padding: 10px; /* Adds padding inside cells for better readability */
-    text-align: left; /* Aligns text to the left */
+    border: 1px solid #ccc; 
+    padding: 10px;
+    text-align: left;
 }
 
 th {
@@ -123,7 +130,7 @@ th {
 }
 
 td {
-    background-color: #ff77ee; /* Adds a white background color to data cells */
+    background-color: #ff77ee; 
 
 }
 
@@ -132,10 +139,10 @@ th {
 }   
 
 th {
-    text-transform: uppercase; /* Makes text in the header row uppercase */
-    background-color: #333; /* Dark background color for the header */
-    color: #fff; /* White text for contrast */
-    padding: 10px; /* Adds padding for better readability */
-    border-bottom: 3px solid #ccc; /* Adds a thicker bottom border */
+    text-transform: uppercase; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    border-bottom: 3px solid #ccc;
 }
 
